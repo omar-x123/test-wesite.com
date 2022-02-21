@@ -1,0 +1,181 @@
+header{
+    width: 100%;
+    height: 70px;
+    background-image: url(../y.jpg);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.267);
+    justify-content: space-between;
+}
+
+.logo{
+    width: 50px;
+    position: absolute;
+    top: 5px;
+    right: 47%;
+
+}
+
+.d{
+    display: inline-block;
+    max-width: calc(100% - 230px);
+    background-color: #eee;
+    padding: 30px 15px;
+    margin: 3px 3px;
+    margin-left: -1px;
+    border-radius: 15px;
+}
+
+.pp{
+    height: 45px;
+}
+
+
+.about{
+    display: inline-block;
+    color: rgba(240, 248, 255, 0.692);
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    right: 100px;
+    top: 15px;
+    letter-spacing: 5px;
+}
+
+.about:after{
+    content: "";
+    width: 0px;
+    height: 0px;
+    border-top: 7px solid rgba(240, 248, 255, 0.692);
+    border-right: 7px solid rgba(0, 136, 255, 0);
+    border-left: 7px solid rgba(255, 0, 191, 0);
+    border-bottom: 7px solid rgba(255, 187, 0, 0);
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.about:hover:after{
+    opacity: 1;
+}
+
+.whats{
+    width: 30px;
+    opacity: 0.5;
+    position: absolute;
+    left: 25px;
+    top: 25px;
+}
+
+.face{
+    width: 35px;
+    opacity: 0.5;
+    position: absolute;
+    left: 70px;
+    top: 23px;
+}
+
+.youtube{
+    width: 30px;
+    opacity: 0.5;
+    position: absolute;
+    left: 120px;
+    top: 25px;
+}
+
+.twitter{
+    width: 40px;
+    opacity: 0.5;
+    position: absolute;
+    left: 163px;
+    top: 20px;
+}
+
+.face:hover{
+    opacity: 1;
+    cursor: pointer;
+    width: 40px;
+    transition: all 300ms;
+}
+
+.whats:hover{
+    opacity: 1;
+    cursor: pointer;
+    width: 35px;
+    transition: all 300ms;
+}
+
+.twitter:hover{
+    opacity: 1;
+    cursor: pointer;
+    width: 45px;
+    transition: all 300ms;
+}
+
+.youtube:hover{
+    opacity: 1;
+    cursor: pointer;
+    width: 35px;
+    transition: all 300ms;
+}
+
+.footer{
+    display: block;
+    background-color: rgb(109, 44, 139);
+    max-width: calc(100% - 184px);
+    height: 50px;
+    margin-bottom: -8px;
+    margin-left: -8px;
+    text-align: center;
+    font-size: 20px;
+    color: #eee;
+    text-shadow: 2px ;
+}
+
+
+sidebar{
+    position: fixed;
+    top: 70px;
+    right: 0px;
+    width: 200px;
+    height: calc(100% - 70px);
+    overflow: hidden;
+    background-color: rgb(26, 13, 51);
+    color: #eee;
+    font-size: 20px;
+}
+
+.s{
+    display: block;
+    height: 30px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.s:hover{
+    background-color: rgb(67, 44, 88);
+    font-size: 22px;
+    cursor: pointer;
+    transition: all 300ms;
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+sidebar:hover{
+    /* transition: all 700ms 5s; */
+    overflow-y: scroll;
+}
+
+hr{
+    color: rgb(109, 109, 109);
+    height: 0px;
+    width: 180px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
